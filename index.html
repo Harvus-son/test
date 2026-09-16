@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Moodly — интерактивный сайт для отслеживания настроения.">
+  <title>Moodly — твоё настроение</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="home">
+<header class="site-header"><a class="logo" href="index.html"><span>◒</span> moodly</a><nav><a class="active" href="index.html">Главная</a><a href="mood.html">Настроение</a><a href="diary.html">Дневник</a><a href="insights.html">Инсайты</a></nav><button class="icon-btn" id="themeToggle" aria-label="Сменить тему">☼</button></header>
+<main>
+<section class="hero container">
+  <div class="hero-copy"><p class="eyebrow">Твой цифровой mood space</p><h1>Заметь, что<br><span>ты чувствуешь.</span></h1><p class="hero-text">Небольшое пространство, где можно отметить настроение, оставить мысль и увидеть свои эмоциональные паттерны без оценок.</p><div class="actions"><a class="btn primary" href="mood.html">Отметить настроение →</a><a class="btn ghost" href="diary.html">Открыть дневник</a></div></div>
+  <div class="mood-orb"><div class="orb-glow"></div><div class="orb-face" id="heroFace">◡</div><span class="orb-label">как ты сегодня?</span></div>
+</section>
+<section class="container stats-grid"><div class="stat-card"><span>Сегодня</span><strong id="todayMood">—</strong><small>твоё настроение</small></div><div class="stat-card"><span>Записей</span><strong id="entryCount">0</strong><small>в локальном дневнике</small></div><div class="stat-card"><span>Серия</span><strong id="streak">0</strong><small>дней подряд</small></div></section>
+<section class="container section"><div class="section-heading"><div><p class="eyebrow">Простая привычка</p><h2>Три шага к осознанности</h2></div></div><div class="feature-grid"><article><b>01</b><h3>Отметь</h3><p>Выбери эмоцию и интенсивность — это занимает меньше минуты.</p></article><article><b>02</b><h3>Опиши</h3><p>Добавь несколько слов о том, что повлияло на твой день.</p></article><article><b>03</b><h3>Замечай</h3><p>На странице инсайтов смотри динамику и повторяющиеся тенденции.</p></article></div></section>
+</main><footer class="container footer"><span>moodly / personal mood tracker</span><span>Данные хранятся только в этом браузере.</span></footer>
+<script src="assets/js/app.js"></script>
+</body></html>
